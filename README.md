@@ -18,18 +18,18 @@ This repository contains **Dockerfile** of:
 1. Install [Docker](https://www.docker.com)
 2. Pull [automated build](https://registry.hub.docker.com/u/moia/scala-on-circleci) from public [Docker Hub Registry](https://registry.hub.docker.com):
 ```
-docker pull moia/scala-node-on-circleci
+docker pull moia/scala-nodejs-on-circleci
 ```
 Alternatively, you can build an image from Dockerfile:
 ```
-docker build -t moia/scala-node-on-circleci github.com/moia-dev/scala-node-on-circleci
+docker build -t moia/scala-nodejs-on-circleci github.com/moia-dev/scala-nodejs-on-circleci
 ```
 
 
 ## Usage ##
 
 ```
-docker run -it --rm moia/scala-node-on-circleci
+docker run -it --rm moia/scala-nodejs-on-circleci
 ```
 
 ## Development Notes
@@ -45,13 +45,13 @@ docker run -it --rm moia/scala-node-on-circleci
 2. Build Docker image:
 
    ```
-   docker build -t moia/scala-node-on-circleci:8u212-2.12.8-1.14.2-10.16.3 .
+   docker build -t moia/scala-nodejs-on-circleci:8u212-2.12.8-1.14.2-10.16.3 .
    ```
 3. Push Docker image:
 
    ```
    docker login
-   docker push moia/scala-node-on-circleci:8u212-2.12.8-1.14.2-10.16.3
+   docker push moia/scala-nodejs-on-circleci:8u212-2.12.8-1.14.2-10.16.3
    ```
 
 ## License ##
