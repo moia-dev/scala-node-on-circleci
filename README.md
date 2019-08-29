@@ -51,7 +51,7 @@ docker run -it --rm moia/scala-node-on-circleci
 
    ```
    docker login
-   docker push moia/scala-on-circleci:8u212-2.12.8-1.14.2-10.16.3
+   docker push moia/scala-node-on-circleci:8u212-2.12.8-1.14.2-10.16.3
    ```
 
 ## License ##
